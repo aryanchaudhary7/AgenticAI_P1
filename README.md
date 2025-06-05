@@ -1,18 +1,18 @@
-Agentic AI Generator
+# Agentic AI Generator
+
 This project generates, manages, and deploys autonomous AI agents using Python and advanced agent frameworks. It uses OpenAI or Gemini models for generating content and ideas, and supports agent communication through gRPC.
 
-Features
-Automatically creates Python agents based on a customizable template
+## Features
 
-Each agent is assigned a distinct personality, domain, and creative focus
+- Automatically creates Python agents based on a customizable template  
+- Each agent is assigned a distinct personality, domain, and creative focus  
+- Agents can communicate and collaborate using gRPC runtime  
+- Modular architecture using RoutedAgent and AssistantAgent classes
 
-Agents can communicate and collaborate using gRPC runtime
+## Technology Stack
 
-The architecture is modular and uses RoutedAgent and AssistantAgent classes
-
-Tech Stack
-Python - core language used
-Autogen Core - framework for building agents
-OpenAI or Gemini - for generating agent code and ideas
-gRPC - for communication between distributed agents
-python-dotenv - for managing API keys through environment variables
+- Python as the core programming language  
+- Autogen Core framework for building and routing agents  
+- OpenAI or Gemini AI models for generating agent code and ideas  
+- gRPC for distributed communication between agents  
+- python-dotenv for managing API keys through environment variables
